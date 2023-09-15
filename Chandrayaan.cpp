@@ -1,5 +1,6 @@
-#include <iostream>
-#include <vector>
+#include <bits/stdc++.h>
+using namespace std;
+
 
 enum class Direction { N, S, E, W, Up, Down };
 
@@ -38,8 +39,8 @@ public:
     }
 
     void printPositionAndDirection() const {
-        std::cout << "Final Position: (" << x << ", " << y << ", " << z << ")\n";
-        std::cout << "Final Direction: " << directionToString(direction) << "\n";
+        cout << "Final Position: (" << x << ", " << y << ", " << z << ")\n";
+        cout << "Final Direction: " << directionToString(direction) << "\n";
     }
 
 private:
